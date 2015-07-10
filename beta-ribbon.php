@@ -6,7 +6,7 @@
 /*
 Plugin Name: Beta Ribbon
 Plugin URI: https://turriffweb.co.uk/wordpress/plugins/beta-ribbon/
-Description: When activated this will show a BETA ribbon on the top left corner of your website. Deactivate the remove your site from beta :)
+Description: When activated this will show a BETA ribbon on the top left corner of your website. Deactivate the plugin to remove your site from beta :)
 Version: 0.2
 Author: Mike Rawlins
 Author URI:
