@@ -5,7 +5,7 @@
  */
 /*
 Plugin Name: Beta Ribbon
-Plugin URI: https://turriffweb.co.uk/wordpress-plugins/beta-ribbon/
+Plugin URI: https://turriffweb.co.uk/wordpress/plugins/beta-ribbon/
 Description: When activated this will show a BETA ribbon on the top left corner of your website.
 Author: Mike Rawlins
 Version: 0.1
@@ -36,3 +36,4 @@ function render_beta_ribbon() {
 	echo "class='beta-ribbon' <img src='{$ribbon_url}' alt='This is BETA' style='position: absolute; top: ".$padding_top ."px; left: 0; z-index: 1000;  border:none;' />";
 }
 add_action('wp_footer', 'render_beta_ribbon');
+?>
