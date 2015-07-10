@@ -33,7 +33,7 @@ function render_beta_ribbon() {
 	} else {
 		$padding_top = 0;
 	}
-	echo "class='beta-ribbon' <img src='{$ribbon_url}' alt='This is BETA' style='position: absolute; top: ".$padding_top ."px; left: 0; z-index: 1000;  border:none;' />";
+	echo "class='beta-ribbon' <img src='{$ribbon_url}' alt='This is BETA' style='position: absolute; top: ".$padding_top ."px; left: 0; z-index: 100000;  border:none;' />";
 }
 add_action('wp_footer', 'render_beta_ribbon');
 ?>
