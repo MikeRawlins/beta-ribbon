@@ -8,10 +8,14 @@ Plugin Name: Beta Ribbon
 Plugin URI: https://turriffweb.co.uk/wordpress/plugins/beta-ribbon/
 Description: When activated this will show a BETA ribbon on the top left corner of your website.
 Author: Mike Rawlins
-Version: 0.1
-License:             
-	DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
-                    Version 2, December 2004
+Author URI:
+Version: 0.2
+License: WTFPL
+*/
+
+/*
+		DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+			Version 2, December 2004
 
  Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
 
@@ -19,11 +23,11 @@ License:
  copies of this license document, and changing it is allowed as long
  as the name is changed.
 
-            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+			DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
    TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 
   0. You just DO WHAT THE FUCK YOU WANT TO.
-Author URI: 
+
 */
 
 function render_beta_ribbon() {
